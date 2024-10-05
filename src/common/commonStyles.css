@@ -1,0 +1,43 @@
+/* STYLES FOR HEADERS */
+.mail-icon {
+  transition: transform 0.6s ease;
+}
+
+.mail-icon:hover {
+  transform: rotate(30deg);
+}
+
+/* STYLES FOR NAVBAR */
+.navigate {
+  transition: background-color 2s ease;
+  transition: color 0.7s ease;
+}
+.navigate:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar-menu span {
+  height: 6.5rem;
+}
+
+.hoverable-span {
+  height: 7rem;
+}
+
+.underlines {
+  transition: text-decoration 0.6s ease;
+}
+.underlines:hover {
+  text-decoration: underline;
+}
+
+/* CARD STYLES */
+
+.card-image {
+  z-index: 3;
+  transition: transform 0.6s ease;
+}
+.card-image:hover {
+  transform: scale(0.9);
+}

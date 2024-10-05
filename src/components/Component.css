@@ -1,0 +1,146 @@
+input::placeholder {
+  color: white; /* Replace 'red' with your desired color */
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 0.8;
+  }
+}
+
+.img-box {
+  max-width: 504px;
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+  height: 720px;
+  border-radius: 300px;
+  aspect-ratio: 0.7 / 1;
+}
+.img-box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-box .img-box-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: scale(1.2);
+}
+
+/* .slider-Testimonials {
+  position: relative;
+  width: 10%;
+  display: grid;
+  place-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.slide-track-Testimonials {
+  display: flex;
+  width: calc(200px * 10);
+  animation: scroll 25s infinite linear;
+  margin: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+.img2-box {
+  max-width: 350px;
+  width: 100%;
+  height: min-content;
+  overflow: hidden;
+  height: 580px;
+  border-radius: 300px;
+  aspect-ratio: 0.7 / 1;
+}
+.img2-box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img2-box .img2-box-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: scale(1.2);
+}
+
+/* CAROUSEL CSS */
+.carousel {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.carousel-track {
+  display: flex;
+}
+
+.carousel-track.forward {
+  animation: scrollForward 10s linear infinite;
+}
+
+.carousel-track.reverse {
+  animation: scrollReverse 10s linear infinite;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  width: 30%;
+  height: 30%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes scrollForward {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollReverse {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.full-image-style {
+  rotate: none;
+  scale: none;
+  transform: translate3d(0px, 0px, 0px) scale(1.2372, 1.2372);
+}
+.full-image-sec .full-image-style {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+.full-image-sec .full-image-style .full-image-box {
+  border-radius: 20rem;
+}

@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.font-inter-tight {
+  font-family: "Inter Tight", sans-serif;
+}
+
+.font-instrument {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inputBox::placeholder {
+  color: #d6d3d2;
+  opacity: 0.3;
+}
+
+.react-international-phone-input-container {
+  gap: 1rem;
+  /* margin-left: 10rem !important; */
+}
+
+.react-international-phone-input {
+  background-color: #0f0f0f !important;
+  color: white !important;
+  width: 100% !important;
+  height: 4rem !important;
+  border: 1px solid #0f0f0f !important;
+  border-radius: 0.75rem !important;
+  font-size: 1.5rem !important;
+  padding-left: 1rem;
+}
+
+.react-international-phone-input::placeholder {
+  color: #d6d3d2;
+  opacity: 0.3;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.react-international-phone-country-selector-button {
+  background-color: transparent !important;
+  border: 1px solid #0f0f0f !important;
+  color: white !important;
+  height: 4rem !important;
+  border-radius: 0.75rem !important;
+  /* width: 100%; */
+}
+
+.react-international-phone-country-selector-dropdown {
+  background-color: #0f0f0f !important;
+  color: white !important;
+}
+
+.react-international-phone-country-selector-dropdown li:hover {
+  color: #0f0f0f !important;
+}
